@@ -1,0 +1,37 @@
+/*Comentários CSS*/
+a {
+    font-style: italic;
+}
+
+body {
+    font-family: Segoe UI;
+}
+
+#teste {
+    color: rgba(87, 62, 59, 25%);
+    letter-spacing: -0.15em;
+    background-image: url(../imagens/bonsai.jpg);
+}
+
+h2 {
+    color: #37A6E5;
+    letter-spacing: 1.5em;
+}
+
+header {
+    color: rgb(83, 117, 201);
+    font-weight: bold;
+    text-align: center;
+    font-size: 20px;
+}
+
+span {
+    color: rgb(35%, 45%, 50%);
+    font-size: 12px;
+    text-transform: uppercase;
+    font-weight: bold;
+}
+
+section {
+    background-color: #FCE4F4;
+}
