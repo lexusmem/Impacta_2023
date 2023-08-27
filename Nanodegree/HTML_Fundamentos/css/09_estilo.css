@@ -1,0 +1,41 @@
+html {
+    font-family: segoe ui;
+}
+
+ul {
+    padding: 0px;
+}
+
+li {
+    /* Remove o marcador da lista */
+    list-style: none;
+    /* coloca a lista de forma horizontal */
+    float: left;
+    margin-right: 10px;
+    border: 1px solid black;
+    padding: 5px;
+    border-radius: 3px;
+}
+
+section {
+    width: 40%;
+    float: left;
+    clear: left;
+    margin-top: 10px;
+    display: inline-block;
+}
+
+section div {
+    /* margin-bottom: 12px; */
+    /* float: left; */
+}
+
+article {
+    background-color: crimson;
+    float: left;
+    margin-bottom: 12px;
+    padding-right: 20px;
+    padding-left: 20px;
+    border-radius: 6px;
+    text-align: justify;
+}

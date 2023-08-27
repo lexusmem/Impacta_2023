@@ -3,9 +3,21 @@ body {
 }
 
 .header {
-    border: 1px solid black;
+    border: 3px solid black;
     width: 98%;
     margin-bottom: 10px;
+    padding-bottom: 0px;
+    padding: 0px;
+    height: 60px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    align-items: flex-end;
+}
+
+h1 {
+    margin: 0px;
+    padding: 0px;
 }
 
 .banner {
@@ -22,13 +34,35 @@ body {
     align-items: center;
     justify-content: center;
     width: 98%;
-
     gap: 20px;
+    flex-wrap: nowrap;
+    background-color: antiquewhite;
 }
 
 .item {
     border: 1px solid black;
     border-radius: 10px;
     height: 80px;
-    width: 32.66%;
+}
+
+.item-1 {
+    flex-grow: 2;
+}
+
+.item-2 {
+    flex-grow: 2;
+}
+
+.item-3 {
+    flex-grow: 4;
+    display: flex;
+}
+
+img {
+    border-radius: 10px;
+}
+
+p {
+    margin-top: 0px;
+    text-align: center;
 }
