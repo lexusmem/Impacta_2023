@@ -2,8 +2,12 @@ html {
     font-family: segoe ui;
 }
 
-ul {
+header {
     padding: 0px;
+    border: 1px solid black;
+    height: 60px;
+    background-color: rosybrown;
+    margin-top: 0px;
 }
 
 li {
@@ -11,10 +15,12 @@ li {
     list-style: none;
     /* coloca a lista de forma horizontal */
     float: left;
+    color: azure;
     margin-right: 10px;
-    border: 1px solid black;
+    border: 1px solid azure;
     padding: 5px;
     border-radius: 3px;
+    background-color: black;
 }
 
 section {
@@ -36,6 +42,95 @@ article {
     margin-bottom: 12px;
     padding-right: 20px;
     padding-left: 20px;
+    padding-bottom: 10px;
     border-radius: 6px;
     text-align: justify;
+}
+
+#peterson>img {
+    width: 300px;
+    right: 400px;
+    /* width: 92px;
+    height: 151px; */
+}
+
+#peterson {
+    position: absolute;
+    right: 100px;
+    top: 40px;
+    /* position: relative;
+    left: 35%; */
+}
+
+#logo_relativo {
+    position: relative;
+    left: 35%;
+}
+
+aside {
+    clear: left;
+    display: block;
+}
+
+#a1,
+#a2,
+#a3 {
+    width: 150px;
+    height: 250px;
+    border-radius: 10px;
+    position: fixed;
+}
+
+#a1 {
+    background-color: #AA57A0;
+    top: 400px;
+    right: 600px;
+    z-index: 3;
+}
+
+#a2 {
+    background-color: #C476BB;
+    top: 450px;
+    right: 550px;
+    z-index: 2;
+}
+
+#a3 {
+    background-color: #512C83;
+    top: 500px;
+    right: 500px;
+    z-index: 1;
+}
+
+@media screen and (max-width: 800px) {
+    #peterson>img {
+        /* width: 300px;
+        right: 400px; */
+        width: 92px;
+        height: 151px;
+    }
+
+    #peterson {
+        /* position: absolute;
+        right: 100px;
+        top: 40px; */
+        position: relative;
+        left: 35%;
+    }
+
+    #a1,
+    #a2,
+    #a3 {
+        position: relative;
+        clear: left;
+        display: block;
+    }
+}
+
+footer {
+    position: fixed;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    background-color: black;
 }
