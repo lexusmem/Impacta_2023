@@ -1,0 +1,46 @@
+body {
+    margin: 0px;
+    padding: 0px;
+    font-family: Segoe UI;
+}
+
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px;
+    height: 50px;
+    background-color: black;
+    border-radius: 20px;
+}
+
+input {
+    width: 200px;
+    height: 30px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    margin-right: 20px;
+}
+
+#logo {
+    width: 55px;
+    height: 50px;
+    margin-left: 20px;
+}
+
+.banner {
+    height: 300px;
+    width: 0 auto;
+    padding: 10px;
+}
+
+.banner img {
+    border-radius: 20px;
+
+}
+
+a {
+    color: yellow;
+    text-decoration: none;
+    font-size: 70px;
+}
