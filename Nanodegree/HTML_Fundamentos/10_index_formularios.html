@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta author="Alex Sousa">
+    <meta description="Formulários HTML5 CSS">
+    <meta keyworld="css, html5, formulário">
+    <title>Formulários</title>
+    <link rel="stylesheet" href="css/10_estilo_formulario.css" type="text/css">
+</head>
+
+<body>
+
+    <header>
+
+    </header>
+
+    <section>
+        <h1>Formulários</h1>
+        <!-- Formulários -->
+        <form method="get" action="">
+            Nome: <input type="text" placeholder="Digite aqui!" required>
+            <br />
+            E-mail: <input type="email" name="" id="" placeholder="Digite seu E-mail" required>
+            <br />
+            Quantidade de dependentes:
+            <input class="number" type="number" min="0" max="5" placeholder="Qtd">
+            <br />
+            CEP: <input type="text" required pattern="[0-9]{8}" placeholder="Digite apenas Números">
+            <br />
+            Deseja Receber Novidades do Site?
+            <br />
+            Sim <input class="number" type="radio" name="Novidades" value="Sim" checked>
+            Não <input class="number" type="radio" name="Novidades" value="Não">
+            <br />
+            <br />
+            <!-- <input type="submit" value="Confirmar"> -->
+            <button>Confirmar</button>
+
+            <h1>Confira nossos Serviços: (List)</h1>
+            <input list="servicos">
+            <datalist id="servicos">
+                <option value="Administração"></option>
+                <option value="Contabilidade"></option>
+                <option value="Financeiro"></option>
+                <option value="Marketing"></option>
+            </datalist>
+
+            <h1>Area para DIgitação (TextArea)</h1>
+            <textarea name="" id="" cols="50" rows="10"></textarea>
+
+        </form>
+
+    </section>
+
+    <footer>
+
+    </footer>
+
+</body>
+
+</html>

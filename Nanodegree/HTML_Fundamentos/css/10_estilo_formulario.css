@@ -1,0 +1,20 @@
+html {
+    margin: 0px;
+    padding: 0px;
+    font-family: Segoe UI;
+}
+
+h1 {
+    text-align: center;
+    text-decoration: underline;
+    font-size: 40px;
+}
+
+input {
+    width: 200px;
+    margin: 10px;
+}
+
+.number {
+    width: 45px;
+}
