@@ -30,20 +30,20 @@ print(f'Raiz quadrada de {n} é igual{sqrt(n): .3f}.')
 
 
 # Laços Aninhados
-# def relogio():
-#     h = 0
-#     while h < 24:
-#         m = 0
-#         while m < 60:
-#             s = 0
-#             while s < 60:
-#                 print(f"{h: 02}: {m: 02}: {s: 02}")
-#                 s += 1
-#             m += 1
-#         h += 1
+def relogio():
+    h = 0
+    while h < 24:
+        m = 0
+        while m < 60:
+            s = 0
+            while s < 60:
+                print('{:02}:{:02}:{:02}'.format(h, m, s))
+                s += 1
+            m += 1
+        h += 1
 
 
-# relogio()
+relogio()
 
 # 1) crie uma função que receba como argumento um número natural e exiba seus
 # dígitos na ordem do último
