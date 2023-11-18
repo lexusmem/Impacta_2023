@@ -102,8 +102,12 @@
 # v = [10, 20, 30, 40, 50]
 # print(v[-1])
 
-i = 10
-while i >= 0:
-    print(i)
-    i -= 1
-print('Fogo')
+# i = 10
+# while i >= 0:
+#     print(i)
+#     i -= 1
+# print('Fogo')
+
+a = list(range(3, 10, 2))
+print(a)
+print(len(a))
