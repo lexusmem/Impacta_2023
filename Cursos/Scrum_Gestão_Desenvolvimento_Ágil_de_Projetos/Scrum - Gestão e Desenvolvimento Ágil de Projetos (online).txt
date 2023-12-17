@@ -1,0 +1,67 @@
+## Scrum - Gestão e Desenvolvimento Ágil de Projetos (online) ##
+
+Para ajudá-lo(a) a reforçar os conhecimentos adquiridos neste curso, você dispõe de um Material de Apoio com o conjunto de arquivos utilizados pelo instrutor durante as videoaulas. Esse material está disponível na Aula 4, seção Material de apoio, e pode ser baixado para uso em seu computador. 
+
+## introdução ##
+
+* o dia a dia de projetos scrum
+
+* dicas para implementação
+
+* nova forma de encarar projetos
+
+* a questão cultural nas empresas
+
+
+# Scrum na Pratica #
+
+algumas empresas:
+
+microsoft, unimed, globo, google, amazon, uol, policia militar, nokia, yahoo...
+
+As empresas devem enxergar valor no scrum e aplicar nos projetos.
+
+## A origem do Scrum e o Manifesto Ágil ##
+
+# Origem do Scrum #
+
+* 1986 takeuchi e nonaka
+- equipes pequenas e multidisciplinares
+- the new product development game
+
+* 1993 jeff sutherland
+- Documentação e implementação na Easel
+
+* 1995 ken sutherland
+- formalização e implementação no desenvolvimento SW
+
+* 2001 Manifesto Ágil
+
+# Manifesto para desenvolvimento agil de software #
+
+Estamos descobrindo maneiras melhores de desenvolver software, fazendo-o nos mesmos e ajudando outros a fazerem o mesmo. atraves deste tranlaho, passamos a valorizar:
+
+* os individuos e suas interações acima de procedimentos e ferramentas;
+Dar prioridade na convesas com reuniões pessoais para tomada de decisões para correção de algum problema especifico.
+
+* O funcionamento do software acima de documentação abrangente
+Deve existir documentação, porém a funcionalidade do software e correção do bug deve ser prioridade em relação a documentação.
+A documentação deve ser suficiente para o cliente e desenvolver entender, não podendo ser essagerada.
+
+* A colaboração dos cliente acima da negociação de contratos.
+O cliente deve estar do seu lado pois nos projetos tanto o cliente ou o desenvolvedor pode precisar um do outro.
+Ex.: 4 entregas, entrega 1 correta e no prazo.
+Porém na entrega 2 existe problema com time de desenvolvimento e tenta negociar com o cliente a redução de itens na entrega.
+A colaboração entre as partes e o jogo de cintura ajuda em enventuais necessidades de ambas as partes.
+
+* A capacidade de resposta a mudanças acima de um plano preestabelecido.
+contornar a situações e dificuldades do dia a dia para entrega e desenvolvimentos para tomar decisões com base no atual atual momento e dificuldades.
+
+* Ou seja, mesmo havendo valor nos itens a direita, valorizamos mais os itens a esquerda.
+- Os individuos e suas interações acima de procedimentos e ferramentas;
+- O funcionamento do software acima de documentação abrangente;
+- A colaboração dos clientes acima da negociação de contratos;
+- A capacidade de respostas a mudanças acima de um plano preestabelecido.
+
+Entre 17 integrantes que escreveram o manifesto estão  ken schwaber e jeff sutherland (2001)
+
