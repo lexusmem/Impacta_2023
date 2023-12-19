@@ -65,3 +65,80 @@ contornar a situações e dificuldades do dia a dia para entrega e desenvolvimen
 
 Entre 17 integrantes que escreveram o manifesto estão  ken schwaber e jeff sutherland (2001)
 
+## O que é ser ágil e quando utilizar o Scrum ##
+
+# O que é ser ágil? #
+
+Agilidade é velocidade com controle.
+
+Nos projetos a entrega deve ser ágil, porém o desenvolvendo ágil deve prever os testes as documentações e sem bugs.
+
+# Quando utilizar o Scrum #
+
+Para que um projeto seja simples a equipe deve saber sobre os requerimentos e ter conhecimento da tecnologia que será aplicado no projeto.
+
+* Projeto Simples
+Quanto mais existir conhecimento destes dois pontos mas o projeto será "simples" (sem dúvidas nas regras e na construção).
+
+* Projeto Complicado
+Quase todas as regras e suas construções são conhecidas.
+
+
+* Projeto Complexo
+Conhecimento médio das regras de negocios e de sua construção.
+
+
+* Projeto Caos
+Conhecimento baixo das regras de negocios e de sua construção.
+
+Scrum é um framework para desenvolvimento ágil de projetos, uma metodologia ágil de gestão de projetos que se baseia em ciclos curtos de trabalho. Chamados de sprints, com duração de duas a quatro semanas.
+Durante cada sprint, a equipe se concentra em entregar um conjunto de funcionalidades ou melhorias ao produto.
+
+O Scrum é uma metodologia eficaz para gerenciar projetos complexos e dinâmicos, pois permite que as equipes se adaptem às mudanças e entreguem valor aos clientes com rapidez.
+
+O Scrum pode ser usada em qualquer setor, mas é mais comumente usada no desenvolvimento de software.
+
+O desenvolvimento cascata é uma metodologia linear, o que significa que as fases são executadas em sequência. Uma vez que uma fase é concluída, não é possível voltar atrás e fazer alterações.
+
+O desenvolvimento cascata é uma metodologia eficaz para projetos com requisitos estáveis e que não estão sujeitos a mudanças ao longo do tempo.
+
+No entanto, o desenvolvimento cascata também tem algumas desvantagens, como:
+
+- Dificuldade de adaptação: como as fases são lineares, é difícil adaptar o projeto às mudanças que ocorrem ao longo do tempo.
+
+- Alto risco: como as fases são lineares, um erro em uma fase pode afetar todas as fases subsequentes.
+
+O Scrum é uma metodologia que pode ser utilizada em qualquer projeto, mas é mais adequado para projetos que apresentam as seguintes características:
+
+- Complexidade: o Scrum é uma metodologia eficaz para gerenciar projetos complexos, pois permite que as equipes se adaptem às mudanças e entreguem valor aos clientes com rapidez.
+
+- Dinâmica: o Scrum é uma metodologia flexível, que pode ser adaptada às mudanças que ocorrem durante o projeto.
+
+- Requisitos mutáveis: o Scrum é uma metodologia que permite que os requisitos sejam alterados ao longo do projeto, sem comprometer o cronograma ou o orçamento.
+
+- Trabalhar em equipe: o Scrum é uma metodologia que incentiva a colaboração entre os membros da equipe.
+
+- Necessidade de entregas frequentes: o Scrum permite que as equipes entreguem valor aos clientes de forma rápida e frequente.
+
+- Necessidade de feedback constante: o Scrum incentiva o feedback constante do cliente, o que ajuda a garantir a qualidade do produto.
+
+A colaboração do time e a vontade de entregar as sprints é muito importante.
+
+O scrum é:
+
+- Leve
+- Simples de entender
+- Extremamente dificil de dominar, sempre será utilizado por outras equipes que observa o ambiente que aplica o scrum.
+
+O Scrum Guide possuí:
+
+- Papéis (3)
+- Eventos (5)
+- Artefatos (N)
+- Regras
+
+O scrum é baseado em processo incremental e iterativo. Sendo um processo empírico de gerenciamento e controle.
+
+O processo empirico se baseia no que deu certo e a correção de rotas com base no conhecimento adquirido nas entregas anteriores.
+
+O scrum é muito mais atitude do que processos em si, sendo escalável em projetos grandes e largos.
