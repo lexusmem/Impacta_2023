@@ -18,6 +18,12 @@ print(lista_inteiros[0])
 print(cria_lista)
 cria_lista.append('alex')
 print(cria_lista)
+cria_lista.append([1, 2, 3])
+print(cria_lista)
+lista_alex = ['a', 'b', 'c', 'alex']
+print(lista_alex)
+lista_alex.extend([1, 2, 3])
+print(lista_alex)
 
 # tuplas
 # Tuplas são imutáveis
