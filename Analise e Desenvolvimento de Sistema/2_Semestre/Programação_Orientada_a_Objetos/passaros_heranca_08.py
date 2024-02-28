@@ -7,7 +7,8 @@ class Passaro:
 
     # métodos
     def atacar(self, alvo):
-        pass
+        self.alvo = alvo
+        print('teste método atacar.....')
 
     def fugir(self, destino):
         pass
@@ -26,13 +27,16 @@ class PassaroAquatico(Passaro):
     # classes sem atributos novos
     # método
     def nadar(self):
-        pass
+        print('teste método nadar.....')
 
 
 class PassaroDeCompanhia(PassaroAereo):
+    # Atributos herdados da classe filha PassaroAereo
     def __init__(self, companheiro, vida, ataque, defesa):
         # Atributos
         self.companheiro = companheiro
+        # super() - função super permite acessar e reutilizar métodos __init__
+        # de classes ancestrais.
         super().__init__(vida, ataque, defesa)
 
 
@@ -40,6 +44,8 @@ class Pinguim(PassaroAquatico):
     def __init__(self, peso, vida, ataque, defesa):
         # Atributos
         self.peso = peso
+        # super() - função super permite acessar e reutilizar métodos __init__
+        # de classes ancestrais.
         super().__init__(vida, ataque, defesa)
 
 
@@ -49,3 +55,7 @@ if __name__ == '__main__':
     print(vars(aguia))
     print(vars(pinguim))
     print('Fim')
+    teste = PassaroAquatico(100, 200, 50)
+    print(vars(teste))
+    teste.nadar()
+    teste.atacar('teste')
