@@ -54,6 +54,7 @@ if __name__ == '__main__':
     pinguim = Pinguim(5, 140, 80, 400)
     print(vars(aguia))
     print(vars(pinguim))
+    print(Pinguim.mro())
     print('Fim')
     teste = PassaroAquatico(100, 200, 50)
     print(vars(teste))
