@@ -19,3 +19,7 @@ if __name__ == '__main__':
 
 # exemplo:
 meu_modulo_09.exibe_nome()
+meu_modulo_09.impresao_teste()
+
+alex = meu_modulo_09.Teste()
+print(alex)
