@@ -1,0 +1,1 @@
+Escrevendo e Manipulando aquivos de texto com python.Linha 1Linha 2Linha 3Linha 4
