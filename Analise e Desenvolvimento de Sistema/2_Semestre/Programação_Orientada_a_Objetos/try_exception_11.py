@@ -3,6 +3,7 @@ from exception_raise_error_11 import Paciente, NameIsEmptyError
 try:
     nome = input('Digite o nome do paciente: ')
     paciente_1 = Paciente(nome)
+    paciente_1.paciente = ""
 except TypeError:
     print('O nome deve ser uma string.')
 except NameIsEmptyError:
