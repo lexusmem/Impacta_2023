@@ -52,11 +52,23 @@
           <AssociatedConnUserName />
           <FullPath>Criando um Banco de dados.sql</FullPath>
         </FileNode>
+        <FileNode Name="Exclusão Registro.sql">
+          <AssociatedConnectionMoniker>8c91a03d-f9b4-46c0-a305-b5dcc79ff907:DESKTOP-32J24GI:True</AssociatedConnectionMoniker>
+          <AssociatedConnSrvName>DESKTOP-32J24GI</AssociatedConnSrvName>
+          <AssociatedConnUserName />
+          <FullPath>Exclusão Registro.sql</FullPath>
+        </FileNode>
         <FileNode Name="Inserindo Registros.sql">
           <AssociatedConnectionMoniker>8c91a03d-f9b4-46c0-a305-b5dcc79ff907:DESKTOP-32J24GI:True</AssociatedConnectionMoniker>
           <AssociatedConnSrvName>DESKTOP-32J24GI</AssociatedConnSrvName>
           <AssociatedConnUserName />
           <FullPath>Inserindo Registros.sql</FullPath>
+        </FileNode>
+        <FileNode Name="Transações.sql">
+          <AssociatedConnectionMoniker>8c91a03d-f9b4-46c0-a305-b5dcc79ff907:DESKTOP-32J24GI:True</AssociatedConnectionMoniker>
+          <AssociatedConnSrvName>DESKTOP-32J24GI</AssociatedConnSrvName>
+          <AssociatedConnUserName />
+          <FullPath>Transações.sql</FullPath>
         </FileNode>
       </Items>
     </LogicalFolder>
