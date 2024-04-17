@@ -28,6 +28,12 @@
           <AssociatedConnUserName />
           <FullPath>Atualizando Registros.sql</FullPath>
         </FileNode>
+        <FileNode Name="Between Like In.sql">
+          <AssociatedConnectionMoniker>8c91a03d-f9b4-46c0-a305-b5dcc79ff907:DESKTOP-32J24GI:True</AssociatedConnectionMoniker>
+          <AssociatedConnSrvName>DESKTOP-32J24GI</AssociatedConnSrvName>
+          <AssociatedConnUserName />
+          <FullPath>Between Like In.sql</FullPath>
+        </FileNode>
         <FileNode Name="Consultas Dados.sql">
           <AssociatedConnectionMoniker>8c91a03d-f9b4-46c0-a305-b5dcc79ff907:DESKTOP-32J24GI:True</AssociatedConnectionMoniker>
           <AssociatedConnSrvName>DESKTOP-32J24GI</AssociatedConnSrvName>
@@ -81,6 +87,12 @@
           <AssociatedConnSrvName>DESKTOP-32J24GI</AssociatedConnSrvName>
           <AssociatedConnUserName />
           <FullPath>Transações.sql</FullPath>
+        </FileNode>
+        <FileNode Name="Union e Union All.sql">
+          <AssociatedConnectionMoniker>8c91a03d-f9b4-46c0-a305-b5dcc79ff907:DESKTOP-32J24GI:True</AssociatedConnectionMoniker>
+          <AssociatedConnSrvName>DESKTOP-32J24GI</AssociatedConnSrvName>
+          <AssociatedConnUserName />
+          <FullPath>Union e Union All.sql</FullPath>
         </FileNode>
       </Items>
     </LogicalFolder>
