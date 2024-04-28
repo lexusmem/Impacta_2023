@@ -16,15 +16,16 @@
 
 
     <main>
-        <form action="">
+        <form method="POST" action="recebe_dados.html">
             <div>
                 <label for="id_usuario">Usuário: </label>
-                <input type="text" name="usuario" id="id_usuario">
+                <input type="text" name="usuario" id="id_usuario" required maxlength="15" minlength="3"
+                    placeholder="Digite o nome do Usuário">
             </div>
 
             <div>
                 <label for="id_senha">Senha: </label>
-                <input type="password" name="senha" id="id_senha">
+                <input type="password" name="senha" id="id_senha" required>
             </div>
 
             <div>
@@ -44,7 +45,7 @@
 
             <div>
                 <label for="id_numero">Número: </label>
-                <input type="number" name="numero" id="id_numero">
+                <input type="number" name="numero" id="id_numero" disabled>
             </div>
             <br>
             <div>
@@ -85,8 +86,8 @@
                 <label for="id_mensagem">Mensagem: </label>
                 <br>
                 <br>
-                <textarea name="" id="" cols="50" rows="10" name="mensagem"
-                    id="id_mensagem">Escreva sua mensagem aqui.</textarea>
+                <textarea id="" cols="50" rows="10" name="mensagem" id="id_mensagem"
+                    readonly>Escreva sua mensagem aqui. Campo com readonly!</textarea>
             </div>
             <br>
             <div>
