@@ -34,11 +34,23 @@
           <AssociatedConnUserName />
           <FullPath>DML manipular dados.sql</FullPath>
         </FileNode>
+        <FileNode Name="DQL comandos de filtros.sql">
+          <AssociatedConnectionMoniker>8c91a03d-f9b4-46c0-a305-b5dcc79ff907:DESKTOP-32J24GI:True</AssociatedConnectionMoniker>
+          <AssociatedConnSrvName>DESKTOP-32J24GI</AssociatedConnSrvName>
+          <AssociatedConnUserName />
+          <FullPath>DQL comandos de filtros.sql</FullPath>
+        </FileNode>
         <FileNode Name="DQL consulta de dados.sql">
           <AssociatedConnectionMoniker>8c91a03d-f9b4-46c0-a305-b5dcc79ff907:DESKTOP-32J24GI:True</AssociatedConnectionMoniker>
           <AssociatedConnSrvName>DESKTOP-32J24GI</AssociatedConnSrvName>
           <AssociatedConnUserName />
           <FullPath>DQL consulta de dados.sql</FullPath>
+        </FileNode>
+        <FileNode Name="DQL Join.sql">
+          <AssociatedConnectionMoniker>8c91a03d-f9b4-46c0-a305-b5dcc79ff907:DESKTOP-32J24GI:True</AssociatedConnectionMoniker>
+          <AssociatedConnSrvName>DESKTOP-32J24GI</AssociatedConnSrvName>
+          <AssociatedConnUserName />
+          <FullPath>DQL Join.sql</FullPath>
         </FileNode>
       </Items>
     </LogicalFolder>
