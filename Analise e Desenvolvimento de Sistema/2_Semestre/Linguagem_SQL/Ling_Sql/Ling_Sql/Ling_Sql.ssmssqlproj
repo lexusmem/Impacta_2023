@@ -46,6 +46,24 @@
           <AssociatedConnUserName />
           <FullPath>DQL consulta de dados.sql</FullPath>
         </FileNode>
+        <FileNode Name="DQL funcoes Built-in.sql">
+          <AssociatedConnectionMoniker>8c91a03d-f9b4-46c0-a305-b5dcc79ff907:DESKTOP-32J24GI:True</AssociatedConnectionMoniker>
+          <AssociatedConnSrvName>DESKTOP-32J24GI</AssociatedConnSrvName>
+          <AssociatedConnUserName />
+          <FullPath>DQL funcoes Built-in.sql</FullPath>
+        </FileNode>
+        <FileNode Name="DQL Funcoes Numericas.sql">
+          <AssociatedConnectionMoniker>8c91a03d-f9b4-46c0-a305-b5dcc79ff907:DESKTOP-32J24GI:True</AssociatedConnectionMoniker>
+          <AssociatedConnSrvName>DESKTOP-32J24GI</AssociatedConnSrvName>
+          <AssociatedConnUserName />
+          <FullPath>DQL Funcoes Numericas.sql</FullPath>
+        </FileNode>
+        <FileNode Name="DQL group by.sql">
+          <AssociatedConnectionMoniker>8c91a03d-f9b4-46c0-a305-b5dcc79ff907:DESKTOP-32J24GI:True</AssociatedConnectionMoniker>
+          <AssociatedConnSrvName>DESKTOP-32J24GI</AssociatedConnSrvName>
+          <AssociatedConnUserName />
+          <FullPath>DQL group by.sql</FullPath>
+        </FileNode>
         <FileNode Name="DQL Join.sql">
           <AssociatedConnectionMoniker>8c91a03d-f9b4-46c0-a305-b5dcc79ff907:DESKTOP-32J24GI:True</AssociatedConnectionMoniker>
           <AssociatedConnSrvName>DESKTOP-32J24GI</AssociatedConnSrvName>
