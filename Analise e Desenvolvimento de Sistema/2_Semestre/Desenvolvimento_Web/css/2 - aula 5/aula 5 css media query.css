@@ -1,0 +1,15 @@
+.div1 {
+    width: 1000px;
+    background-color: aquamarine;
+}
+
+@media screen and (max-width: 900px) {
+    .div1 {
+        width: 100%;
+        background-color: green;
+    }
+
+    body {
+        background-color: black;
+    }
+}

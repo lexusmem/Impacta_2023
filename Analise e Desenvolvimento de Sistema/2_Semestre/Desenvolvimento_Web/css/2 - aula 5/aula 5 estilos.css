@@ -1,0 +1,90 @@
+.div1 {
+    background-color: yellow;
+    width: 50%;
+    height: 200px;
+    font-size: 24px;
+}
+
+/*unidade tamanho "em" numero de vezes o tamanho do elemento pai*/
+/*unidade tamanho "rem" numero de vezes o tamanho da fonte padrão do navegador*/
+/*unidade tamanho "%" percentual do tamanho padrão do elemento*/
+.para1 {
+    font-size: 2em;
+}
+
+/*ao adicionar padding aumenta o tamanho do elemento na pagina*/
+.div2 {
+    background-color: brown;
+    width: 500px;
+    height: 200px;
+    padding: 5px;
+    padding-top: 10px;
+    padding-left: 10px;
+    border: 5px solid blue;
+    border-right-color: purple;
+    border-right-width: 10px;
+    border-right-style: dotted;
+    margin: 20px;
+    margin-top: 30px;
+    position: sticky;
+    top: 0px;
+}
+
+.div3 {
+    background-color: brown;
+    width: 500px;
+    height: 200px;
+    padding: 5px;
+    padding-top: 10px;
+    padding-left: 10px;
+    border: 5px solid rgb(0, 255, 98);
+    border-right-color: rgb(128, 4, 0);
+    border-right-width: 10px;
+    border-right-style: dotted;
+    margin: 20px;
+    margin-top: 30px;
+
+    /*elemento box-sizing - não considera o tamanho da margin, somente o valor do 
+    padding e da border para manter o valor total do elemento definido no width e height*/
+    box-sizing: border-box;
+}
+
+#nome {
+    padding: 10px;
+    border: 3px dashed green;
+    margin: 10px;
+    display: block;
+}
+
+.div4 {
+    background-color: rgba(42, 161, 165, 0.377);
+    width: 100px;
+    height: 100px;
+    /*padrão display block - uma linha por elemento*/
+    /*padrão display inline - pode existir linha com mais de um elemento
+    porém o tamanho não considera os valores width e height e sim o tamanho do conteúdo*/
+    /*padrão display inline-block - pode existir linha com mais de um elemento
+    e o tamanho considera os valores width e height*/
+    /*padrão display none - o elemento não aparece*/
+    display: inline-block;
+}
+
+.div5 {
+    background-color: rgba(107, 100, 172, 0.377);
+    width: 100px;
+    height: 100px;
+    display: block;
+}
+
+.div6 {
+    background-color: rgba(153, 38, 67, 0.377);
+    width: 100px;
+    height: 100px;
+}
+
+.div7 {
+    background-color: rgba(194, 221, 43, 0.377);
+    width: 100px;
+    height: 100px;
+    display: block;
+}
