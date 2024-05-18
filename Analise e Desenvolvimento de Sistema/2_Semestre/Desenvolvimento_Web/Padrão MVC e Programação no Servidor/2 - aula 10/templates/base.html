@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="/static/estilos.css">
+    <title>{% block titulo %}{% endblock %}</title>
+</head>
+<header>
+    <nav>
+        <a href="/">Página Inicial</a> |
+        <a href="/cursos">Cursos disponíveis</a> |
+        <a href="/cursos/devweb">Desenvolvimento Web</a> |
+        <a href="/cursos/poo">Programação Orientada a Objetos</a>
+    </nav>
+</header>
+<main>
+    {% block conteudo %} {% endblock %}
+</main>
+<footer>
+    <p>Rodapé do projeto de demonstração</p>
+</footer>
+</body>
+
+</html>

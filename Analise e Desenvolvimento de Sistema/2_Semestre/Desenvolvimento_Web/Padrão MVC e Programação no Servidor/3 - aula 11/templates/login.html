@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Exemplo de Formulário</title>
+    <link rel="stylesheet" href="/static/estilos.css">
+</head>
+
+<body>
+    <form method="post">
+        <div>
+            <label for="id_usuario">Usuário</label><br>
+            <input type="text" name="usuario" id="id_usuario">
+        </div>
+
+        <div>
+            <label for="id_senha">Senha:</label><br>
+            <input type="password" name="senha" id="id_senha">
+        </div>
+        <br><button type="submit">Enviar</button>
+        <p class="urgente">{{ erro }}</p>
+    </form>
+</body>
+
+</html>
