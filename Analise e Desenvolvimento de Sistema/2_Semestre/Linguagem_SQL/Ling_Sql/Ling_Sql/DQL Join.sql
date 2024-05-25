@@ -5,6 +5,21 @@ EXEC sp_tables Product;
 exec sp_tables;
 exec sp_help 'SalesLT.Product';
 exec sp_help 'SalesLT.ProductCategory';
+exec sp_help 'SalesLT.ProductModel';
+exec sp_help 'SalesLT.Address';
+exec sp_help 'SalesLT.Customer';
+
+select *
+from SalesLT.ProductModel as p inner join SalesLT.Customer c
+on p.Name = c.FirstName
+;
+
+select * from SalesLT.ProductCategory;
+select * from SalesLT.ProductModel;
+select * from SalesLT.Customer;
+select * from SalesLT.SalesOrderDetail;
+
+
 
 select	SalesLT.Product.ProductID, SalesLT.Product.Name, SalesLT.Product.ProductCategoryID,
 			SalesLT.ProductCategory.Name, SalesLT.ProductCategory.rowguid

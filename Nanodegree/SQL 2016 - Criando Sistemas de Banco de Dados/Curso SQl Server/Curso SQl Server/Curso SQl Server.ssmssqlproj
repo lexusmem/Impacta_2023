@@ -76,11 +76,41 @@
           <AssociatedConnUserName />
           <FullPath>Inserindo Registros.sql</FullPath>
         </FileNode>
+        <FileNode Name="Intersect e Except.sql">
+          <AssociatedConnectionMoniker>8c91a03d-f9b4-46c0-a305-b5dcc79ff907:DESKTOP-32J24GI:True</AssociatedConnectionMoniker>
+          <AssociatedConnSrvName>DESKTOP-32J24GI</AssociatedConnSrvName>
+          <AssociatedConnUserName />
+          <FullPath>Intersect e Except.sql</FullPath>
+        </FileNode>
+        <FileNode Name="Junções Externas - LEFT e RIGHT JOIN.sql">
+          <AssociatedConnectionMoniker>8c91a03d-f9b4-46c0-a305-b5dcc79ff907:DESKTOP-32J24GI:True</AssociatedConnectionMoniker>
+          <AssociatedConnSrvName>DESKTOP-32J24GI</AssociatedConnSrvName>
+          <AssociatedConnUserName />
+          <FullPath>Junções Externas - LEFT e RIGHT JOIN.sql</FullPath>
+        </FileNode>
+        <FileNode Name="Junções Internas - INNER JOIN.sql">
+          <AssociatedConnectionMoniker>8c91a03d-f9b4-46c0-a305-b5dcc79ff907:DESKTOP-32J24GI:True</AssociatedConnectionMoniker>
+          <AssociatedConnSrvName>DESKTOP-32J24GI</AssociatedConnSrvName>
+          <AssociatedConnUserName />
+          <FullPath>Junções Internas - INNER JOIN.sql</FullPath>
+        </FileNode>
+        <FileNode Name="Junções Totais e Cruzamentos FULL e CROSS JOIN.sql">
+          <AssociatedConnectionMoniker>8c91a03d-f9b4-46c0-a305-b5dcc79ff907:DESKTOP-32J24GI:True</AssociatedConnectionMoniker>
+          <AssociatedConnSrvName>DESKTOP-32J24GI</AssociatedConnSrvName>
+          <AssociatedConnUserName />
+          <FullPath>Junções Totais e Cruzamentos FULL e CROSS JOIN.sql</FullPath>
+        </FileNode>
         <FileNode Name="Operadores.sql">
           <AssociatedConnectionMoniker>8c91a03d-f9b4-46c0-a305-b5dcc79ff907:DESKTOP-32J24GI:True</AssociatedConnectionMoniker>
           <AssociatedConnSrvName>DESKTOP-32J24GI</AssociatedConnSrvName>
           <AssociatedConnUserName />
           <FullPath>Operadores.sql</FullPath>
+        </FileNode>
+        <FileNode Name="Trabalhando com Nulos.sql">
+          <AssociatedConnectionMoniker>8c91a03d-f9b4-46c0-a305-b5dcc79ff907:DESKTOP-32J24GI:True</AssociatedConnectionMoniker>
+          <AssociatedConnSrvName>DESKTOP-32J24GI</AssociatedConnSrvName>
+          <AssociatedConnUserName />
+          <FullPath>Trabalhando com Nulos.sql</FullPath>
         </FileNode>
         <FileNode Name="Transações.sql">
           <AssociatedConnectionMoniker>8c91a03d-f9b4-46c0-a305-b5dcc79ff907:DESKTOP-32J24GI:True</AssociatedConnectionMoniker>
