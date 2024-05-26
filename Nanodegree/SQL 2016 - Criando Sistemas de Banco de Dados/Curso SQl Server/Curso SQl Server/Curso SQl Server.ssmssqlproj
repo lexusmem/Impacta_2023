@@ -22,6 +22,12 @@
     </LogicalFolder>
     <LogicalFolder Name="Queries" Type="0" Sorted="true">
       <Items>
+        <FileNode Name="Agrupamento GROUP BY HAVING WITH ROLLUP e CUBE.sql">
+          <AssociatedConnectionMoniker>8c91a03d-f9b4-46c0-a305-b5dcc79ff907:DESKTOP-32J24GI:True</AssociatedConnectionMoniker>
+          <AssociatedConnSrvName>DESKTOP-32J24GI</AssociatedConnSrvName>
+          <AssociatedConnUserName />
+          <FullPath>Agrupamento GROUP BY HAVING WITH ROLLUP e CUBE.sql</FullPath>
+        </FileNode>
         <FileNode Name="Atualizando Registros.sql">
           <AssociatedConnectionMoniker>8c91a03d-f9b4-46c0-a305-b5dcc79ff907:DESKTOP-32J24GI:True</AssociatedConnectionMoniker>
           <AssociatedConnSrvName>DESKTOP-32J24GI</AssociatedConnSrvName>
@@ -39,6 +45,12 @@
           <AssociatedConnSrvName>DESKTOP-32J24GI</AssociatedConnSrvName>
           <AssociatedConnUserName />
           <FullPath>Consultas Dados.sql</FullPath>
+        </FileNode>
+        <FileNode Name="Criação de Tabelas Temporarias.sql">
+          <AssociatedConnectionMoniker>8c91a03d-f9b4-46c0-a305-b5dcc79ff907:DESKTOP-32J24GI:True</AssociatedConnectionMoniker>
+          <AssociatedConnSrvName>DESKTOP-32J24GI</AssociatedConnSrvName>
+          <AssociatedConnUserName />
+          <FullPath>Criação de Tabelas Temporarias.sql</FullPath>
         </FileNode>
         <FileNode Name="Criando Constraint.sql">
           <AssociatedConnectionMoniker>8c91a03d-f9b4-46c0-a305-b5dcc79ff907:DESKTOP-32J24GI:True</AssociatedConnectionMoniker>
@@ -69,6 +81,12 @@
           <AssociatedConnSrvName>DESKTOP-32J24GI</AssociatedConnSrvName>
           <AssociatedConnUserName />
           <FullPath>Exclusão Registro.sql</FullPath>
+        </FileNode>
+        <FileNode Name="Funções de Agragação - max min avg count.sql">
+          <AssociatedConnectionMoniker>8c91a03d-f9b4-46c0-a305-b5dcc79ff907:DESKTOP-32J24GI:True</AssociatedConnectionMoniker>
+          <AssociatedConnSrvName>DESKTOP-32J24GI</AssociatedConnSrvName>
+          <AssociatedConnUserName />
+          <FullPath>Funções de Agragação - max min avg count.sql</FullPath>
         </FileNode>
         <FileNode Name="Inserindo Registros.sql">
           <AssociatedConnectionMoniker>8c91a03d-f9b4-46c0-a305-b5dcc79ff907:DESKTOP-32J24GI:True</AssociatedConnectionMoniker>
@@ -106,6 +124,12 @@
           <AssociatedConnUserName />
           <FullPath>Operadores.sql</FullPath>
         </FileNode>
+        <FileNode Name="Subconsultas - Subquery.sql">
+          <AssociatedConnectionMoniker>8c91a03d-f9b4-46c0-a305-b5dcc79ff907:DESKTOP-32J24GI:True</AssociatedConnectionMoniker>
+          <AssociatedConnSrvName>DESKTOP-32J24GI</AssociatedConnSrvName>
+          <AssociatedConnUserName />
+          <FullPath>Subconsultas - Subquery.sql</FullPath>
+        </FileNode>
         <FileNode Name="Trabalhando com Nulos.sql">
           <AssociatedConnectionMoniker>8c91a03d-f9b4-46c0-a305-b5dcc79ff907:DESKTOP-32J24GI:True</AssociatedConnectionMoniker>
           <AssociatedConnSrvName>DESKTOP-32J24GI</AssociatedConnSrvName>
@@ -123,6 +147,12 @@
           <AssociatedConnSrvName>DESKTOP-32J24GI</AssociatedConnSrvName>
           <AssociatedConnUserName />
           <FullPath>Union e Union All.sql</FullPath>
+        </FileNode>
+        <FileNode Name="UPDATE e DELETE com INNER JOIN e OUTER JOIN.sql">
+          <AssociatedConnectionMoniker>8c91a03d-f9b4-46c0-a305-b5dcc79ff907:DESKTOP-32J24GI:True</AssociatedConnectionMoniker>
+          <AssociatedConnSrvName>DESKTOP-32J24GI</AssociatedConnSrvName>
+          <AssociatedConnUserName />
+          <FullPath>UPDATE e DELETE com INNER JOIN e OUTER JOIN.sql</FullPath>
         </FileNode>
       </Items>
     </LogicalFolder>
