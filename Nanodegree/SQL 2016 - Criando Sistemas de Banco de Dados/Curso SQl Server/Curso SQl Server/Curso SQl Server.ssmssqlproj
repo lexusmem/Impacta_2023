@@ -82,6 +82,24 @@
           <AssociatedConnUserName />
           <FullPath>Exclusão Registro.sql</FullPath>
         </FileNode>
+        <FileNode Name="Funções Built-in Manipulação de Conversão e Formatos.sql">
+          <AssociatedConnectionMoniker>8c91a03d-f9b4-46c0-a305-b5dcc79ff907:DESKTOP-32J24GI:True</AssociatedConnectionMoniker>
+          <AssociatedConnSrvName>DESKTOP-32J24GI</AssociatedConnSrvName>
+          <AssociatedConnUserName />
+          <FullPath>Funções Built-in Manipulação de Conversão e Formatos.sql</FullPath>
+        </FileNode>
+        <FileNode Name="Funções Built-in Manipulação de Datas.sql">
+          <AssociatedConnectionMoniker>8c91a03d-f9b4-46c0-a305-b5dcc79ff907:DESKTOP-32J24GI:True</AssociatedConnectionMoniker>
+          <AssociatedConnSrvName>DESKTOP-32J24GI</AssociatedConnSrvName>
+          <AssociatedConnUserName />
+          <FullPath>Funções Built-in Manipulação de Datas.sql</FullPath>
+        </FileNode>
+        <FileNode Name="Funções Built-in Manipulação de Textos.sql">
+          <AssociatedConnectionMoniker>8c91a03d-f9b4-46c0-a305-b5dcc79ff907:DESKTOP-32J24GI:True</AssociatedConnectionMoniker>
+          <AssociatedConnSrvName>DESKTOP-32J24GI</AssociatedConnSrvName>
+          <AssociatedConnUserName />
+          <FullPath>Funções Built-in Manipulação de Textos.sql</FullPath>
+        </FileNode>
         <FileNode Name="Funções de Agragação - max min avg count.sql">
           <AssociatedConnectionMoniker>8c91a03d-f9b4-46c0-a305-b5dcc79ff907:DESKTOP-32J24GI:True</AssociatedConnectionMoniker>
           <AssociatedConnSrvName>DESKTOP-32J24GI</AssociatedConnSrvName>
