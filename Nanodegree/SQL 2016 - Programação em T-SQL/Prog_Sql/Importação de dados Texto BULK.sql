@@ -1,4 +1,4 @@
--- IMPORTAR DADOS DDE TEXTO
+-- IMPORTAR DADOS DE TEXTO
 
 -- bulk insert
 use DadosExternos;

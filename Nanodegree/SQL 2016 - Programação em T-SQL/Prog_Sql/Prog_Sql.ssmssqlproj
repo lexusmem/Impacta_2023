@@ -47,8 +47,8 @@
           <FullPath>CROSS APPLY.sql</FullPath>
         </FileNode>
         <FileNode Name="Dados Personalizados UDDT.sql">
-          <AssociatedConnectionMoniker />
-          <AssociatedConnSrvName />
+          <AssociatedConnectionMoniker>8c91a03d-f9b4-46c0-a305-b5dcc79ff907:DESKTOP-32J24GI:True</AssociatedConnectionMoniker>
+          <AssociatedConnSrvName>DESKTOP-32J24GI</AssociatedConnSrvName>
           <AssociatedConnUserName />
           <FullPath>Dados Personalizados UDDT.sql</FullPath>
         </FileNode>
@@ -58,17 +58,47 @@
           <AssociatedConnUserName />
           <FullPath>Equiparando dados Merge.sql</FullPath>
         </FileNode>
+        <FileNode Name="Estrutura de Repetição.sql">
+          <AssociatedConnectionMoniker>8c91a03d-f9b4-46c0-a305-b5dcc79ff907:DESKTOP-32J24GI:True</AssociatedConnectionMoniker>
+          <AssociatedConnSrvName>DESKTOP-32J24GI</AssociatedConnSrvName>
+          <AssociatedConnUserName />
+          <FullPath>Estrutura de Repetição.sql</FullPath>
+        </FileNode>
+        <FileNode Name="Funções de Usuário.sql">
+          <AssociatedConnectionMoniker>8c91a03d-f9b4-46c0-a305-b5dcc79ff907:DESKTOP-32J24GI:True</AssociatedConnectionMoniker>
+          <AssociatedConnSrvName>DESKTOP-32J24GI</AssociatedConnSrvName>
+          <AssociatedConnUserName />
+          <FullPath>Funções de Usuário.sql</FullPath>
+        </FileNode>
+        <FileNode Name="Funções de Usuário_Personalizadas.sql">
+          <AssociatedConnectionMoniker>8c91a03d-f9b4-46c0-a305-b5dcc79ff907:DESKTOP-32J24GI:True</AssociatedConnectionMoniker>
+          <AssociatedConnSrvName>DESKTOP-32J24GI</AssociatedConnSrvName>
+          <AssociatedConnUserName />
+          <FullPath>Funções de Usuário_Personalizadas.sql</FullPath>
+        </FileNode>
         <FileNode Name="IFF_CHOOSE_LAG_LEAD_OFFSET.sql">
           <AssociatedConnectionMoniker>8c91a03d-f9b4-46c0-a305-b5dcc79ff907:DESKTOP-32J24GI:True</AssociatedConnectionMoniker>
           <AssociatedConnSrvName>DESKTOP-32J24GI</AssociatedConnSrvName>
           <AssociatedConnUserName />
           <FullPath>IFF_CHOOSE_LAG_LEAD_OFFSET.sql</FullPath>
         </FileNode>
+        <FileNode Name="Importação de dados Texto BULK.sql">
+          <AssociatedConnectionMoniker>8c91a03d-f9b4-46c0-a305-b5dcc79ff907:DESKTOP-32J24GI:True</AssociatedConnectionMoniker>
+          <AssociatedConnSrvName>DESKTOP-32J24GI</AssociatedConnSrvName>
+          <AssociatedConnUserName />
+          <FullPath>Importação de dados Texto BULK.sql</FullPath>
+        </FileNode>
         <FileNode Name="Integrar Dados Com MS-Office.sql">
           <AssociatedConnectionMoniker>8c91a03d-f9b4-46c0-a305-b5dcc79ff907:DESKTOP-32J24GI:True</AssociatedConnectionMoniker>
           <AssociatedConnSrvName>DESKTOP-32J24GI</AssociatedConnSrvName>
           <AssociatedConnUserName />
           <FullPath>Integrar Dados Com MS-Office.sql</FullPath>
+        </FileNode>
+        <FileNode Name="Integrar Dados Com XML e JSON.sql">
+          <AssociatedConnectionMoniker>8c91a03d-f9b4-46c0-a305-b5dcc79ff907:DESKTOP-32J24GI:True</AssociatedConnectionMoniker>
+          <AssociatedConnSrvName>DESKTOP-32J24GI</AssociatedConnSrvName>
+          <AssociatedConnUserName />
+          <FullPath>Integrar Dados Com XML e JSON.sql</FullPath>
         </FileNode>
         <FileNode Name="Manipular colunas IDENTITY.sql">
           <AssociatedConnectionMoniker>8c91a03d-f9b4-46c0-a305-b5dcc79ff907:DESKTOP-32J24GI:True</AssociatedConnectionMoniker>
@@ -88,17 +118,47 @@
           <AssociatedConnUserName />
           <FullPath>Objetos binarios e FileStream.sql</FullPath>
         </FileNode>
+        <FileNode Name="Objetos de Consulta - VIEW Indexada.sql">
+          <AssociatedConnectionMoniker>8c91a03d-f9b4-46c0-a305-b5dcc79ff907:DESKTOP-32J24GI:True</AssociatedConnectionMoniker>
+          <AssociatedConnSrvName>DESKTOP-32J24GI</AssociatedConnSrvName>
+          <AssociatedConnUserName />
+          <FullPath>Objetos de Consulta - VIEW Indexada.sql</FullPath>
+        </FileNode>
+        <FileNode Name="Objetos de Consulta - VIEW Padrão.sql">
+          <AssociatedConnectionMoniker>8c91a03d-f9b4-46c0-a305-b5dcc79ff907:DESKTOP-32J24GI:True</AssociatedConnectionMoniker>
+          <AssociatedConnSrvName>DESKTOP-32J24GI</AssociatedConnSrvName>
+          <AssociatedConnUserName />
+          <FullPath>Objetos de Consulta - VIEW Padrão.sql</FullPath>
+        </FileNode>
+        <FileNode Name="Objetos de Consulta - VIEW Particionada.sql">
+          <AssociatedConnectionMoniker>8c91a03d-f9b4-46c0-a305-b5dcc79ff907:DESKTOP-32J24GI:True</AssociatedConnectionMoniker>
+          <AssociatedConnSrvName>DESKTOP-32J24GI</AssociatedConnSrvName>
+          <AssociatedConnUserName />
+          <FullPath>Objetos de Consulta - VIEW Particionada.sql</FullPath>
+        </FileNode>
+        <FileNode Name="Operadodes Lógicos e Controle de Decisão.sql">
+          <AssociatedConnectionMoniker>8c91a03d-f9b4-46c0-a305-b5dcc79ff907:DESKTOP-32J24GI:True</AssociatedConnectionMoniker>
+          <AssociatedConnSrvName>DESKTOP-32J24GI</AssociatedConnSrvName>
+          <AssociatedConnUserName />
+          <FullPath>Operadodes Lógicos e Controle de Decisão.sql</FullPath>
+        </FileNode>
         <FileNode Name="Otimizar Consultas.sql">
           <AssociatedConnectionMoniker />
           <AssociatedConnSrvName />
           <AssociatedConnUserName />
           <FullPath>Otimizar Consultas.sql</FullPath>
         </FileNode>
-        <FileNode Name="SQLQuery1.sql">
+        <FileNode Name="Procedures de Manipulação de Dados.sql">
           <AssociatedConnectionMoniker>8c91a03d-f9b4-46c0-a305-b5dcc79ff907:DESKTOP-32J24GI:True</AssociatedConnectionMoniker>
           <AssociatedConnSrvName>DESKTOP-32J24GI</AssociatedConnSrvName>
           <AssociatedConnUserName />
-          <FullPath>SQLQuery1.sql</FullPath>
+          <FullPath>Procedures de Manipulação de Dados.sql</FullPath>
+        </FileNode>
+        <FileNode Name="Procedures de Retorno de Dados.sql">
+          <AssociatedConnectionMoniker>8c91a03d-f9b4-46c0-a305-b5dcc79ff907:DESKTOP-32J24GI:True</AssociatedConnectionMoniker>
+          <AssociatedConnSrvName>DESKTOP-32J24GI</AssociatedConnSrvName>
+          <AssociatedConnUserName />
+          <FullPath>Procedures de Retorno de Dados.sql</FullPath>
         </FileNode>
         <FileNode Name="Tabelas Virtuais - CTE.sql">
           <AssociatedConnectionMoniker>8c91a03d-f9b4-46c0-a305-b5dcc79ff907:DESKTOP-32J24GI:True</AssociatedConnectionMoniker>
@@ -106,17 +166,23 @@
           <AssociatedConnUserName />
           <FullPath>Tabelas Virtuais - CTE.sql</FullPath>
         </FileNode>
-        <FileNode Name="teste.sql">
-          <AssociatedConnectionMoniker>8c91a03d-f9b4-46c0-a305-b5dcc79ff907:DESKTOP-32J24GI:True</AssociatedConnectionMoniker>
-          <AssociatedConnSrvName>DESKTOP-32J24GI</AssociatedConnSrvName>
-          <AssociatedConnUserName />
-          <FullPath>teste.sql</FullPath>
-        </FileNode>
         <FileNode Name="Transpondo Linhas e colunas PIVOT e UNPIVOT.sql">
           <AssociatedConnectionMoniker>8c91a03d-f9b4-46c0-a305-b5dcc79ff907:DESKTOP-32J24GI:True</AssociatedConnectionMoniker>
           <AssociatedConnSrvName>DESKTOP-32J24GI</AssociatedConnSrvName>
           <AssociatedConnUserName />
           <FullPath>Transpondo Linhas e colunas PIVOT e UNPIVOT.sql</FullPath>
+        </FileNode>
+        <FileNode Name="Triggers.sql">
+          <AssociatedConnectionMoniker>8c91a03d-f9b4-46c0-a305-b5dcc79ff907:DESKTOP-32J24GI:True</AssociatedConnectionMoniker>
+          <AssociatedConnSrvName>DESKTOP-32J24GI</AssociatedConnSrvName>
+          <AssociatedConnUserName />
+          <FullPath>Triggers.sql</FullPath>
+        </FileNode>
+        <FileNode Name="Variáveis e Controle de Decisão.sql">
+          <AssociatedConnectionMoniker>8c91a03d-f9b4-46c0-a305-b5dcc79ff907:DESKTOP-32J24GI:True</AssociatedConnectionMoniker>
+          <AssociatedConnSrvName>DESKTOP-32J24GI</AssociatedConnSrvName>
+          <AssociatedConnUserName />
+          <FullPath>Variáveis e Controle de Decisão.sql</FullPath>
         </FileNode>
       </Items>
     </LogicalFolder>

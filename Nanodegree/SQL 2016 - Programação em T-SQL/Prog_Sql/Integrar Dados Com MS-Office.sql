@@ -73,8 +73,8 @@ SELECT * FROM Clientes;
 -- Consultar dados de um arquivo Excel
 SELECT * FROM OPENROWSET
 	(
-		'Microsoft.ACE.OLEDB.12.0',
-		'Excel 12.0;Database=C:\Dados\Medicamentos.xlsx;HDR=YES',
+		'Microsoft.SqlServer.OLEDB.16.0',
+		'Excel 12.0;Database=C:\Dados\PESSOA.xlsx;HDR=YES',
 		'SELECT * FROM [Base$] where qtde > 100'
 	);
 
