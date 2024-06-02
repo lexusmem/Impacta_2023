@@ -69,8 +69,7 @@ select
 from Funcionario;
 
 -- fetch-offset
--- 20 priemiras ligas a partir da 50 linha
-
+-- 20 priemiras linhas a partir da 50 linha
 select * from funcionario
 order by idmatricula
 offset 50 rows fetch next 20 rows only;
@@ -78,4 +77,4 @@ offset 50 rows fetch next 20 rows only;
 -- 10 linhas aleatórias a partir da 30
 select * from funcionario
 order by newid()
-offset 15 rows fetch next 10 rows only;
+offset 30 rows fetch next 10 rows only;
