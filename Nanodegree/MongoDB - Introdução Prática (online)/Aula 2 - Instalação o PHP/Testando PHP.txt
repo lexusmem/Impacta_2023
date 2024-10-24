@@ -1,0 +1,17 @@
+Verificando versão do PHP
+
+- php --version
+
+Para liberar o windows alterar arquivo hosts
+
+- C:\Windows\System32\drivers\etc\hosts
+
+Descomentar a linha:
+
+127.0.0.1       localhost
+
+Levantar o servidor do PHP
+
+- php -S localhost:8080
+
+
