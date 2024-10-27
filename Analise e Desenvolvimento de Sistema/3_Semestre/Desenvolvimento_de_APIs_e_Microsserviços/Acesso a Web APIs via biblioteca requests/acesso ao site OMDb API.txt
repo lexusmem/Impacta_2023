@@ -1,0 +1,11 @@
+acessa ao site:
+
+- https://www.omdbapi.com/
+
+Criar API Key - FREE
+
+- https://www.omdbapi.com/apikey.aspx
+
+Ativar chave através do e-mail recebido.
+
+- API Key: 6a2345fe

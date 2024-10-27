@@ -1,0 +1,52 @@
+
+Observe que nas URLs acima, estamos passando parâmetros.
+Na URL http://www.omdbapi.com/?s=star%20wars&page=2&apikey={SUA-CHAVE-VEM-AQUI}
+definimos 3 parâmetros:
+ * s=star wars
+ * page=2
+ * apikey=6a2345fe
+
+Tipos de buscas:
+
+type=movie, series, episode, game
+
+Exemplo de URL de busca:
+
+* By Search = S=Search
+
+https://www.omdbapi.com/?s=star+wars&apikey=6a2345fe&page=1&type=game
+
+* By ID or Title
+
+i=id do filme
+https://www.omdbapi.com/?i=tt1160419&apikey=6a2345fe
+
+t=titulo do filme
+https://www.omdbapi.com/?t=dune&apikey=6a2345fe
+
+QUESTÃO 1
+Olhando para os resultados da consulta
+http://www.omdbapi.com/?s=star+wars&apikey=6a2345fe
+Qual a quntidade foram encontrados para o termo "star wars"?
+
+Resposta: 903
+
+QUESTÃO 2
+Consultando a documentação em www.omdbapi.com, você
+pode aprender a filtrar os resultados da sua busca,
+ficando apenas com filmes, eliminando jogos e séries.
+
+Como fazer isso?
+
+Se você fizer essa consulta, quantos filmes
+existem para a busca star wars?
+
+Resposta: 633
+
+QUESTÃO 3:
+E se ao invés de filmes você quiser só jogos,
+quantos existem?
+
+Resposta: 110
+
+'''
