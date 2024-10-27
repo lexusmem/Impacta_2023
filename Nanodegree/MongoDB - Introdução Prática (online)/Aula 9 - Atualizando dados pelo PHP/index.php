@@ -34,6 +34,7 @@ $cursor = $conn->executeQuery('classedp.alunos', $query);
         <td>Idade</td>
         <td>Sexo</td>
         <td>Turma</td>
+        <td>Nota</td>
         <td>Atualizar</td>
     </tr>
     <?php
@@ -48,12 +49,13 @@ $cursor = $conn->executeQuery('classedp.alunos', $query);
         echo "<td>".$document->idade."</td>";
         echo "<td>".$document->sexo."</td>";
         echo "<td>".$document->turma."</td>";
+        echo "<td>".$document->nota."</td>";
 		
 		// referência para a página de edição dos dados passando o identificador único '_id'
         echo "<td><a href=\"atualizacao_de_dados.php?id=$document->_id\">Editar</a>";
 		
 		// referência para a página de remoção dos dados passando o identificador único '_id' e uma confirmação sobre remover os dados
-		echo " | <a href=\"delete.php?id=$document->_id\" onClick=\"return confirm('Voce quer apagar este registro?')\">Apagar</a></td>";
+		echo " | <a href=\"delete.php?id=$document->_id\" onClick=\"return confirm('Você quer apagar este registro?')\">Apagar</a></td>";
     }
     ?>
     </table>

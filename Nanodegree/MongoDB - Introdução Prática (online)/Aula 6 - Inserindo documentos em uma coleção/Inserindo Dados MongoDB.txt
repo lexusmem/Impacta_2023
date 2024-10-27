@@ -2,6 +2,10 @@ Acessar Mongo DB Shell
 
 - mongosh
 
+Listas DB's disponiveis
+
+- show databases
+
 Criando o banco de dados classedb e acessado banco
 
 - use classedb
