@@ -33,5 +33,30 @@ def cadastrar():
     return pessoas
 
 
+@app.route("/pessoa/<int:id_pessoa>", methods=["PUT"])
+def atualizar(id_pessoa):
+    pessoa = request.json
+    if not pessoa_ok(pessoa):
+        raise BadRequest
+    if id_pessoa not in pessoas:
+        raise NotFound
+    pessoas[id_pessoa] = pessoa
+    return pessoas
+
+
+@app.route("/pessoa/<int:id_pessoa>", methods=["GET"])
+def selecionar(id_pessoa):
+    if id_pessoa not in pessoas:
+        raise NotFound
+    return jsonify(pessoas[id_pessoa])
+
+
+@app.route("/pessoa/<int:id_pessoa>", methods=["DELETE"])
+def deletar(id_pessoa):
+    if id_pessoa in pessoas:
+        del pessoas[id_pessoa]
+    return pessoas
+
+
 if __name__ == "__main__":
     app.run(debug=True)
