@@ -1,0 +1,21 @@
+{% extends "modelo.html" %}
+
+{% block titulo1 %}Listagem de frutas{% endblock %}
+
+{% block titulo2 %}Lista de Frutas{% endblock %}
+
+{% block conteudo %}
+{% if listagem | length == 0 %}
+<p>Desculpe, não há frutas cadastradas.</p>
+{% else %}
+<p>Nossas frutas são:</p>
+<ul>
+    {% for f in listagem %}
+    <li>Temos {{f['nome']}} de cor {{f['cor']}}.</li>
+    {% endfor %}
+</ul>
+{% endif %}
+<form action="/frutas/novo" method="GET">
+    <button type="submit">Cadastrar Nova Fruta</button>
+</form>
+{% endblock %}
