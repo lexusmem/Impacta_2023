@@ -1,0 +1,47 @@
+.container {
+    display: flex;
+    flex-direction: column;
+    /* Organiza os itens verticalmente */
+    gap: 20px;
+    /* Adiciona um espaçamento entre os itens da lista */
+    padding: 20px;
+    /* Adiciona um preenchimento ao redor da lista */
+}
+
+.rowItem {
+    display: flex;
+    /* Permite alinhar a imagem e o texto lado a lado */
+    align-items: center;
+    /* Alinha verticalmente a imagem e o texto */
+    gap: 15px;
+    /* Espaçamento entre a imagem e o texto */
+    padding: 15px;
+    /* Adiciona um preenchimento ao redor da lista */
+    border-bottom: 1px solid #eee;
+    /* Adiciona uma linha de separação sutil entre os itens */
+}
+
+
+.itemText {
+    flex-grow: 1;
+    /* Permite que o texto ocupe o espaço restante */
+}
+
+.itemText h3 {
+    margin-top: 0;
+    font-size: 1.2em;
+    font-weight: bold;
+    color: #333;
+}
+
+.itemText h4 {
+    margin-top: 0;
+    font-size: 1em;
+    font-weight: bold;
+    color: #333;
+}
+
+.itemText p {
+    font-size: 0.9em;
+    color: #777;
+}
