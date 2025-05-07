@@ -1,5 +1,5 @@
 'use client'
-import styles from '../produtos/styles.module.css'
+import styles from '../styles/styles.module.css'
 import React, { useEffect, useState } from 'react';
 
 function Installment(props) {

@@ -1,25 +1,51 @@
-'use client'
+import styles from './styles/styles.module.css'
 
-import React, { useState } from 'react';
+function Installment(props) {
+    const fees = props.installment.hasFee ? 'com juros' : 'sem juros';
 
-export default function Nova_Rota() {
+    return (
+        <p>
+            em {props.installment.number}x de R$ {props.installment.total} {fees}
+        </p>
+    );
 
-  const [count, setCount] = useState(0);
+}
 
-  function increment() {
-    setCount(count + 1);
-  }
+function ProductListItem(props) {
+    const defaltProductImage = "https://placehold.co/150x150?text=Produto&font=roboto";
 
-  return (
+    return (
+        <div className={styles.rowItem}>
+            <img src={defaltProductImage} className="flex-shrink-0 me-3" />
+            <div className={styles.itemText}>
+                <a href="#" className="stretched-link">
+                    <h3 className="mt-0">{props.product.title}</h3>
+                </a>
+                <h4>R$ {props.product.amount}</h4>
+                <Installment installment={props.product.installments} />
+            </div>
+        </div>
+    );
+}
 
-    <div className='mx-4'>
-      <p>O valor do contador é: {count}</p>
-      <button
-        className='bg-blue-500 text-white p-2'
-        onClick={increment}>
+export default function ProductsForSaleList() {
+    const json_products = [
+        {
+            title: "Caneca Personalizada de Porcelana",
+            amount: 123.45,
+            installments: { number: 3, total: 41.15, hasFee: true },
+        },
+        {
+            title: "Caneca de Tulipa",
+            amount: 123.45,
+            installments: { number: 3, total: 41.15 },
+        },
+    ];
 
-        Incrementar
-      </button>
-    </div>
-  );
+    const products = json_products.map((x, index) => (
+        <ProductListItem product={x} key={index} />
+    ));
+
+    return <div className={styles.container}>{products}</div>;
+
 }
