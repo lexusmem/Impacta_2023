@@ -1,4 +1,5 @@
 import styles from './styles/styles.module.css'
+import Header from './components/header';
 
 function Installment(props) {
     const fees = props.installment.hasFee ? 'com juros' : 'sem juros';
@@ -46,6 +47,11 @@ export default function ProductsForSaleList() {
         <ProductListItem product={x} key={index} />
     ));
 
-    return <div className={styles.container}>{products}</div>;
+    return (
+        <div>
+            <Header />
+            <div className={styles.container}>{products}</div>
+        </div>
+    );
 
 }
